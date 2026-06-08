@@ -1,0 +1,1892 @@
+local genv=getgenv()
+local fenv=getfenv()
+local _4QMH3easDBcj2=fenv["4QMH3easDBcj"]
+local _AWKzfxAFvTKMyw3=fenv["AWKzfxAFvTKMyw"]
+local _4m9alS5lm3e3L4=fenv["4m9alS5lm3e3L"]
+local _ibzGuVlrNdh85=fenv["ibzGuVlrNdh8"]
+local _hGqD4zEijO6Hi6=fenv["hGqD4zEijO6Hi"]
+local _AtgPJp5GF3W79J7=fenv["AtgPJp5GF3W79J"]
+local _ZWcn4KYHP1378=fenv["ZWcn4KYHP137"]
+local _e0OQTv3jKgEuM19=fenv["e0OQTv3jKgEuM1"]
+local _RhFtayqQ4l6u10=fenv["RhFtayqQ4l6u"]
+local _14 =loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local _var18 =game:GetService("RunService")
+local _LocalPlayer19 =game:GetService("Players").LocalPlayer
+local _var27 =_14:Gradient({
+  {
+  Color3.fromHex("#FFD194"),
+  0,
+},
+  {
+  Color3.fromHex("#FF5F6D"),
+  0,
+},
+  {
+  Color3.fromHex("#FF7E5F"),
+  0,
+},
+}, {
+  45,
+})
+local _E8anABd7fImy28=fenv["E8anABd7fImy"]
+local _var36 =_14:Gradient({
+  {
+  Color3.fromHex("#FFF3E0"),
+  0,
+},
+  {
+  Color3.fromHex("#FFD194"),
+  0,
+},
+  {
+  Color3.fromHex("#FFE0B2"),
+  0,
+},
+}, {
+  45,
+})
+local _var44 =_14:Gradient({
+  {
+  Color3.fromHex("#FF8C42"),
+  0,
+},
+  {
+  Color3.fromHex("#FF6A88"),
+  0,
+},
+  {
+  Color3.fromHex("#FF7E5F"),
+  0,
+},
+}, {
+  45,
+})
+local _qgzUQ2DJWbR847=fenv["qgzUQ2DJWbR8"]
+local _var53 =_14:Gradient({
+  {
+  Color3.fromHex("#6B4226"),
+  0,
+},
+  {
+  Color3.fromHex("#A0522D"),
+  0,
+},
+  {
+  Color3.fromHex("#8B4513"),
+  0,
+},
+}, {
+  45,
+})
+local _var61 =_14:Gradient({
+  {
+  Color3.fromHex("#D9B08C"),
+  0,
+},
+  {
+  Color3.fromHex("#B5651D"),
+  0,
+},
+  {
+  Color3.fromHex("#C68642"),
+  0,
+},
+}, {
+  45,
+})
+local _var69 =_14:Gradient({
+  {
+  Color3.fromHex("#FFE5B4"),
+  0,
+},
+  {
+  Color3.fromHex("#FFAA5C"),
+  0,
+},
+  {
+  Color3.fromHex("#FFC87C"),
+  0,
+},
+}, {
+  45,
+})
+local _var78 =_14:Gradient({
+  {
+  Color3.fromHex("#FFAA5C"),
+  0,
+},
+  {
+  Color3.fromHex("#FF5F6D"),
+  0,
+},
+  {
+  Color3.fromHex("#FF7E5F"),
+  0,
+},
+}, {
+  45,
+})
+local _var86 =_14:Gradient({
+  {
+  Color3.fromHex("#FF7F50"),
+  0,
+},
+  {
+  Color3.fromHex("#FF5F6D"),
+  0,
+},
+  {
+  Color3.fromHex("#FF6A88"),
+  0,
+},
+}, {
+  45,
+})
+local _var87 =_14:AddTheme({
+  _var44,
+  _var53,
+  _var61,
+  "Mid Summer",
+  _var36,
+  _var78,
+  _var69,
+  _var86,
+  _var27,
+})
+local _var95 =_14:Gradient({
+  {
+  Color3.fromHex("#232526"),
+  0,
+},
+  {
+  Color3.fromHex("#E0E0E0"),
+  0,
+},
+  {
+  Color3.fromHex("#636363"),
+  0,
+},
+}, {
+  90,
+})
+local _Lhu3R7nhejof100=fenv["Lhu3R7nhejof"]
+local _var104 =_14:Gradient({
+  {
+  Color3.fromHex("#1C1C1C"),
+  0,
+},
+  {
+  Color3.fromHex("#636363"),
+  0,
+},
+  {
+  Color3.fromHex("#3A3A3A"),
+  0,
+},
+}, {
+  90,
+})
+local _var112 =_14:Gradient({
+  {
+  Color3.fromHex("#B0B0B0"),
+  0,
+},
+  {
+  Color3.fromHex("#E0E0E0"),
+  0,
+},
+  {
+  Color3.fromHex("#C0C0C0"),
+  0,
+},
+}, {
+  90,
+})
+local _var120 =_14:Gradient({
+  {
+  Color3.fromHex("#FFFFFF"),
+  0,
+},
+  {
+  Color3.fromHex("#BFBFBF"),
+  0,
+},
+  {
+  Color3.fromHex("#D9D9D9"),
+  0,
+},
+}, {
+  90,
+})
+local _var128 =_14:Gradient({
+  {
+  Color3.fromHex("#A0A0A0"),
+  0,
+},
+  {
+  Color3.fromHex("#C0C0C0"),
+  0,
+},
+  {
+  Color3.fromHex("#B0B0B0"),
+  0,
+},
+}, {
+  90,
+})
+local _var136 =_14:Gradient({
+  {
+  Color3.fromHex("#101010"),
+  0,
+},
+  {
+  Color3.fromHex("#636363"),
+  0,
+},
+  {
+  Color3.fromHex("#3A3A3A"),
+  0,
+},
+}, {
+  90,
+})
+local _var145 =_14:Gradient({
+  {
+  Color3.fromHex("#3A3A3A"),
+  0,
+},
+  {
+  Color3.fromHex("#A2A2A2"),
+  0,
+},
+  {
+  Color3.fromHex("#636363"),
+  0,
+},
+}, {
+  90,
+})
+local _var153 =_14:Gradient({
+  {
+  Color3.fromHex("#C0C0C0"),
+  0,
+},
+  {
+  Color3.fromHex("#FFFFFF"),
+  0,
+},
+  {
+  Color3.fromHex("#E0E0E0"),
+  0,
+},
+}, {
+  90,
+})
+local _var154 =_14:AddTheme({
+  _var112,
+  _var120,
+  _var128,
+  "Lunar Moon",
+  _var104,
+  _var145,
+  _var136,
+  _var153,
+  _var95,
+})
+local _var162 =_14:Gradient({
+  {
+  Color3.fromHex("#D0E8F2"),
+  0,
+},
+  {
+  Color3.fromHex("#70C0F2"),
+  0,
+},
+  {
+  Color3.fromHex("#A0D4F2"),
+  0,
+},
+}, {
+  45,
+})
+local _var170 =_14:Gradient({
+  {
+  Color3.fromHex("#E0F7FF"),
+  0,
+},
+  {
+  Color3.fromHex("#80E7FF"),
+  0,
+},
+  {
+  Color3.fromHex("#B0EFFF"),
+  0,
+},
+}, {
+  45,
+})
+local _var178 =_14:Gradient({
+  {
+  Color3.fromHex("#70C0F2"),
+  0,
+},
+  {
+  Color3.fromHex("#30A0D0"),
+  0,
+},
+  {
+  Color3.fromHex("#50B0E0"),
+  0,
+},
+}, {
+  45,
+})
+local _var186 =_14:Gradient({
+  {
+  Color3.fromHex("#0D3B66"),
+  0,
+},
+  {
+  Color3.fromHex("#1E81B0"),
+  0,
+},
+  {
+  Color3.fromHex("#145DA0"),
+  0,
+},
+}, {
+  45,
+})
+local _var194 =_14:Gradient({
+  {
+  Color3.fromHex("#7FB3D5"),
+  0,
+},
+  {
+  Color3.fromHex("#3F91B5"),
+  0,
+},
+  {
+  Color3.fromHex("#5FA2C5"),
+  0,
+},
+}, {
+  45,
+})
+local _var202 =_14:Gradient({
+  {
+  Color3.fromHex("#E6F0FA"),
+  0,
+},
+  {
+  Color3.fromHex("#B4D1F0"),
+  0,
+},
+  {
+  Color3.fromHex("#CDE0F5"),
+  0,
+},
+}, {
+  45,
+})
+local _var210 =_14:Gradient({
+  {
+  Color3.fromHex("#50B0E0"),
+  0,
+},
+  {
+  Color3.fromHex("#108FC0"),
+  0,
+},
+  {
+  Color3.fromHex("#30A0D0"),
+  0,
+},
+}, {
+  45,
+})
+local _var219 =_14:Gradient({
+  {
+  Color3.fromHex("#30A0D0"),
+  0,
+},
+  {
+  Color3.fromHex("#0D81B0"),
+  0,
+},
+  {
+  Color3.fromHex("#108FC0"),
+  0,
+},
+}, {
+  45,
+})
+local _var220 =_14:AddTheme({
+  _var178,
+  _var186,
+  _var194,
+  "Winter Frost",
+  _var170,
+  _var210,
+  _var202,
+  _var219,
+  _var162,
+})
+local _var228 =_14:Gradient({
+  {
+  Color3.fromHex("#3B0D5C"),
+  0,
+},
+  {
+  Color3.fromHex("#9C27B0"),
+  0,
+},
+  {
+  Color3.fromHex("#6A1B9A"),
+  0,
+},
+}, {
+  45,
+})
+local _var236 =_14:Gradient({
+  {
+  Color3.fromHex("#1A001A"),
+  0,
+},
+  {
+  Color3.fromHex("#6A006A"),
+  0,
+},
+  {
+  Color3.fromHex("#3D003D"),
+  0,
+},
+}, {
+  45,
+})
+local _var244 =_14:Gradient({
+  {
+  Color3.fromHex("#9C27B0"),
+  0,
+},
+  {
+  Color3.fromHex("#6A1B9A"),
+  0,
+},
+  {
+  Color3.fromHex("#7B1FA2"),
+  0,
+},
+}, {
+  45,
+})
+local _var252 =_14:Gradient({
+  {
+  Color3.fromHex("#FFFFFF"),
+  0,
+},
+  {
+  Color3.fromHex("#C0C0C0"),
+  0,
+},
+  {
+  Color3.fromHex("#E0E0E0"),
+  0,
+},
+}, {
+  45,
+})
+local _var260 =_14:Gradient({
+  {
+  Color3.fromHex("#B0A0B5"),
+  0,
+},
+  {
+  Color3.fromHex("#7B6F8C"),
+  0,
+},
+  {
+  Color3.fromHex("#9C8FA0"),
+  0,
+},
+}, {
+  45,
+})
+local _var268 =_14:Gradient({
+  {
+  Color3.fromHex("#10001A"),
+  0,
+},
+  {
+  Color3.fromHex("#30004D"),
+  0,
+},
+  {
+  Color3.fromHex("#1A0033"),
+  0,
+},
+}, {
+  45,
+})
+local _var277 =_14:Gradient({
+  {
+  Color3.fromHex("#6A1B9A"),
+  0,
+},
+  {
+  Color3.fromHex("#B55BC5"),
+  0,
+},
+  {
+  Color3.fromHex("#9C27B0"),
+  0,
+},
+}, {
+  45,
+})
+local _var285 =_14:Gradient({
+  {
+  Color3.fromHex("#9C27B0"),
+  0,
+},
+  {
+  Color3.fromHex("#D084E0"),
+  0,
+},
+  {
+  Color3.fromHex("#B55BC5"),
+  0,
+},
+}, {
+  45,
+})
+local _var286 =_14:AddTheme({
+  _var244,
+  _var252,
+  _var260,
+  "Elegant Night",
+  _var236,
+  _var277,
+  _var268,
+  _var285,
+  _var228,
+})
+local _var294 =_14:Gradient({
+  {
+  Color3.fromHex("#0D0D1A"),
+  0,
+},
+  {
+  Color3.fromHex("#2E2E5C"),
+  0,
+},
+  {
+  Color3.fromHex("#1A1A33"),
+  0,
+},
+}, {
+  90,
+})
+local _var302 =_14:Gradient({
+  {
+  Color3.fromHex("#101026"),
+  0,
+},
+  {
+  Color3.fromHex("#333366"),
+  0,
+},
+  {
+  Color3.fromHex("#1A1A3D"),
+  0,
+},
+}, {
+  90,
+})
+local _var310 =_14:Gradient({
+  {
+  Color3.fromHex("#2E2E5C"),
+  0,
+},
+  {
+  Color3.fromHex("#5050A0"),
+  0,
+},
+  {
+  Color3.fromHex("#404080"),
+  0,
+},
+}, {
+  90,
+})
+local _var318 =_14:Gradient({
+  {
+  Color3.fromHex("#A0A0FF"),
+  0,
+},
+  {
+  Color3.fromHex("#E0E0FF"),
+  0,
+},
+  {
+  Color3.fromHex("#C0C0FF"),
+  0,
+},
+}, {
+  90,
+})
+local _var326 =_14:Gradient({
+  {
+  Color3.fromHex("#6060A0"),
+  0,
+},
+  {
+  Color3.fromHex("#A0A0E0"),
+  0,
+},
+  {
+  Color3.fromHex("#8080C0"),
+  0,
+},
+}, {
+  90,
+})
+local _var334 =_14:Gradient({
+  {
+  Color3.fromHex("#0A0A1A"),
+  0,
+},
+  {
+  Color3.fromHex("#2E2E5C"),
+  0,
+},
+  {
+  Color3.fromHex("#1A1A33"),
+  0,
+},
+}, {
+  90,
+})
+local _var343 =_14:Gradient({
+  {
+  Color3.fromHex("#404080"),
+  0,
+},
+  {
+  Color3.fromHex("#6060C0"),
+  0,
+},
+  {
+  Color3.fromHex("#5050A0"),
+  0,
+},
+}, {
+  90,
+})
+local _var351 =_14:Gradient({
+  {
+  Color3.fromHex("#6060C0"),
+  0,
+},
+  {
+  Color3.fromHex("#A0A0FF"),
+  0,
+},
+  {
+  Color3.fromHex("#8080E0"),
+  0,
+},
+}, {
+  90,
+})
+local _var352 =_14:AddTheme({
+  _var310,
+  _var318,
+  _var326,
+  "Lunar Abyss",
+  _var302,
+  _var343,
+  _var334,
+  _var351,
+  _var294,
+})
+local _var360 =_14:Gradient({
+  {
+  Color3.fromHex("#33001A"),
+  0,
+},
+  {
+  Color3.fromHex("#99004D"),
+  0,
+},
+  {
+  Color3.fromHex("#660033"),
+  0,
+},
+}, {
+  45,
+})
+local _var368 =_14:Gradient({
+  {
+  Color3.fromHex("#1A0014"),
+  0,
+},
+  {
+  Color3.fromHex("#66003F"),
+  0,
+},
+  {
+  Color3.fromHex("#330028"),
+  0,
+},
+}, {
+  45,
+})
+local _var376 =_14:Gradient({
+  {
+  Color3.fromHex("#99004D"),
+  0,
+},
+  {
+  Color3.fromHex("#FF6699"),
+  0,
+},
+  {
+  Color3.fromHex("#CC3366"),
+  0,
+},
+}, {
+  45,
+})
+local _var384 =_14:Gradient({
+  {
+  Color3.fromHex("#FFE6F0"),
+  0,
+},
+  {
+  Color3.fromHex("#FF80A0"),
+  0,
+},
+  {
+  Color3.fromHex("#FFB3CC"),
+  0,
+},
+}, {
+  45,
+})
+local _var392 =_14:Gradient({
+  {
+  Color3.fromHex("#CC6699"),
+  0,
+},
+  {
+  Color3.fromHex("#FFB3D9"),
+  0,
+},
+  {
+  Color3.fromHex("#FF99CC"),
+  0,
+},
+}, {
+  45,
+})
+local _var400 =_14:Gradient({
+  {
+  Color3.fromHex("#1A0014"),
+  0,
+},
+  {
+  Color3.fromHex("#66003F"),
+  0,
+},
+  {
+  Color3.fromHex("#330028"),
+  0,
+},
+}, {
+  45,
+})
+local _var409 =_14:Gradient({
+  {
+  Color3.fromHex("#66003F"),
+  0,
+},
+  {
+  Color3.fromHex("#CC3366"),
+  0,
+},
+  {
+  Color3.fromHex("#99004D"),
+  0,
+},
+}, {
+  45,
+})
+local _var417 =_14:Gradient({
+  {
+  Color3.fromHex("#99004D"),
+  0,
+},
+  {
+  Color3.fromHex("#FF6699"),
+  0,
+},
+  {
+  Color3.fromHex("#CC3366"),
+  0,
+},
+}, {
+  45,
+})
+local _var418 =_14:AddTheme({
+  _var376,
+  _var384,
+  _var392,
+  "Lunar Eclipse",
+  _var368,
+  _var409,
+  _var400,
+  _var417,
+  _var360,
+})
+local _OsPlatform419 =_LocalPlayer19.OsPlatform
+local _423 =(_LocalPlayer19.OsPlatform==Enum.Platform.IOS)
+local _var425 =Color3.fromRGB(0, 128, 255)
+local _var427 =Color3.fromRGB(255, 140, 0)
+local _437, _437_2, _437_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0)))
+local _LuzGQMnBhcSh438=fenv["LuzGQMnBhcSh"]
+local _448, _448_2, _448_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0)))
+local _458, _458_2, _458_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0)))
+local _459, _459_2, _459_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _437, _448, _458, "F")
+local _470, _470_2, _470_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.0625)))
+local _480, _480_2, _480_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.0625)))
+local _490, _490_2, _490_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.0625)))
+local _491, _491_2, _491_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _470, _480, _490, "o")
+local _502, _502_2, _502_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.125)))
+local _512, _512_2, _512_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.125)))
+local _522, _522_2, _522_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.125)))
+local _523, _523_2, _523_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _502, _512, _522, "x")
+local _534, _534_2, _534_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.1875)))
+local _544, _544_2, _544_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.1875)))
+local _554, _554_2, _554_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.1875)))
+local _555, _555_2, _555_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _534, _544, _554, "n")
+local _566, _566_2, _566_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.25)))
+local _576, _576_2, _576_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.25)))
+local _586, _586_2, _586_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.25)))
+local _587, _587_2, _587_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _566, _576, _586, "a")
+local _598, _598_2, _598_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.3125)))
+local _608, _608_2, _608_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.3125)))
+local _618, _618_2, _618_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.3125)))
+local _619, _619_2, _619_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _598, _608, _618, "m")
+local _630, _630_2, _630_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.375)))
+local _640, _640_2, _640_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.375)))
+local _650, _650_2, _650_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.375)))
+local _651, _651_2, _651_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _630, _640, _650, "e")
+local _662, _662_2, _662_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.4375)))
+local _672, _672_2, _672_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.4375)))
+local _682, _682_2, _682_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.4375)))
+local _683, _683_2, _683_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _662, _672, _682, " ")
+local _694, _694_2, _694_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.5)))
+local _704, _704_2, _704_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.5)))
+local _714, _714_2, _714_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.5)))
+local _715, _715_2, _715_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _694, _704, _714, "-")
+local _726, _726_2, _726_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.5625)))
+local _736, _736_2, _736_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.5625)))
+local _746, _746_2, _746_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.5625)))
+local _747, _747_2, _747_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _726, _736, _746, " ")
+local _758, _758_2, _758_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.625)))
+local _768, _768_2, _768_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.625)))
+local _778, _778_2, _778_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.625)))
+local _779, _779_2, _779_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _758, _768, _778, "9")
+local _790, _790_2, _790_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.6875)))
+local _800, _800_2, _800_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.6875)))
+local _810, _810_2, _810_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.6875)))
+local _811, _811_2, _811_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _790, _800, _810, "9")
+local _822, _822_2, _822_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.75)))
+local _832, _832_2, _832_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.75)))
+local _842, _842_2, _842_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.75)))
+local _843, _843_2, _843_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _822, _832, _842, " ")
+local _854, _854_2, _854_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.8125)))
+local _864, _864_2, _864_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.8125)))
+local _874, _874_2, _874_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.8125)))
+local _875, _875_2, _875_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _854, _864, _874, "N")
+local _886, _886_2, _886_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.875)))
+local _896, _896_2, _896_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.875)))
+local _906, _906_2, _906_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.875)))
+local _907, _907_2, _907_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _886, _896, _906, "I")
+local _918, _918_2, _918_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*0.9375)))
+local _928, _928_2, _928_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*0.9375)))
+local _938, _938_2, _938_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*0.9375)))
+local _939, _939_2, _939_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _918, _928, _938, "T")
+local _950, _950_2, _950_3 =math.floor(((_var425.R*255)+(((_var427.R*255)- (_var425.R*255))*1)))
+local _960, _960_2, _960_3 =math.floor(((_var425.G*255)+(((_var427.G*255)- (_var425.G*255))*1)))
+local _970, _970_2, _970_3 =math.floor(((_var425.B*255)+(((_var427.B*255)- (_var425.B*255))*1)))
+local _971, _971_2, _971_3 =string.format("<font color=\"rgb(%d,%d,%d)\">%s</font>", _950, _960, _970, "F")
+local _cyjod6v2OzgAW973=fenv["cyjod6v2OzgAW"]
+local _var977 =_14:CreateWindow({
+  180,
+  "discord.gg/qy2neXET6W -- changed",
+  "Foxname1",
+  true,
+  "" .. _459 .. _491 .. _523 .. _555 .. _587 .. _619 .. _651 .. _683 .. _715 .. _747 .. _779 .. _811 .. _843 .. _875 .. _907 .. _939 .. _971,
+  0.6,
+  "rbxassetid://82225829203828",
+  "rbxassetid://133610205520685",
+  "Lunar Abyss",
+  UDim2.fromOffset(660, 430),
+})
+local _var979 =_var977:SetToggleKey(nil)
+local _var989 =_var977:EditOpenButton({
+  2,
+  "Open skibidi",
+  true,
+  ColorSequence.new(Color3.fromRGB(0, 191, 255), Color3.fromRGB(255, 105, 180)),
+  true,
+  "rbxassetid://86146615808159",
+  UDim.new(0, 16),
+})
+local _var991 =_var977:Tab({
+  "Info",
+  "info",
+})
+local _var993 =_var977:Tab({
+  "Main",
+  "terminal",
+})
+local _var995 =_var977:Tab({
+  "Bring",
+  "box",
+})
+local _var997 =_var977:Tab({
+  "Teleport",
+  "map-pin",
+})
+local _var999 =_var977:Tab({
+  "LocalPlayer",
+  "user",
+})
+local _var1001 =_var977:Tab({
+  "Mis",
+  "file-archive",
+})
+local _var1003 =_var977:Tab({
+  "Tree",
+  "tree-pine",
+})
+local _var1005 =_var977:Tab({
+  "Settings",
+  "settings",
+})
+local _var1009 =game:GetService("Workspace")
+local _var1011 =game:GetService("ReplicatedStorage")
+local _var1013 =game:GetService("UserInputService")
+local _var1015 =game:GetService("RunService")
+local _var1017 =game:GetService("HttpService")
+local _var1019 =game:GetService("ProximityPromptService")
+local _LocalPlayer1020 =game:GetService("Players").LocalPlayer
+local _var1022 =_var1009:WaitForChild("Items")
+local _CurrentCamera1023 =_var1009.CurrentCamera
+local _var1024 =makefolder("Foxnamess2")
+fenv["SaveConfig"] = function(...)
+local _1025_vararg1, _1025_vararg2, _1025_vararg3, _1025_vararg4, _1025_vararg5, _1025_vararg6, _1025_vararg7, _1025_vararg8, _1025_vararg9, _1025_vararg10 = ...
+local _2uLUea9eCbmp1029=fenv["2uLUea9eCbmp"]
+local _ =writefile("Foxnamess2" .. "/" .. _1025_vararg1 .. ".json", _var1017:JSONEncode(_1025_vararg2))
+local er =error("/app/25ms_retard:561: <25ms: infinitelooperror>")
+end
+fenv["LoadConfig"] = function(...) --[[No debug info available]] end
+fenv["AutoLoadConfig"] = function(...) --[[No debug info available]] end
+fenv["readAuto"] = function(...) --[[No debug info available]] end
+fenv["writeAuto"] = function(...) --[[No debug info available]] end
+fenv["ListFiles"] = function(...) --[[No debug info available]] end
+for _1040, _1040_2 in pairs(_14:GetThemes()) do
+end
+local _Wo4lRCWqz8Y4e1041=fenv["Wo4lRCWqz8Y4e"]
+local _LocalPlayer1043 =game.Players.LocalPlayer
+local _Character1044 =_LocalPlayer1043.Character
+local _var1047 =game.ReplicatedStorage:WaitForChild("RemoteEvents")
+local _var1049 =_LocalPlayer1043:WaitForChild("Inventory")
+local _var1051 =workspace:WaitForChild("Characters")
+_G["KillAura"]=false
+_G["KillAuraRange"]=100
+_G["ChopAura"]=false
+_G["ChopAuraRange"]=100
+_G["ChopTreeType"]={
+  "Small Tree",
+}
+local _var1053 =_var993:Divider()
+local _var1055 =_var993:Section({
+  17,
+  "Kill Aura",
+  "Center",
+})
+local _var1057 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Kill Aura",
+  false,
+})
+local _var1060 =_var993:Slider({
+  {
+  0,
+  100,
+  150,
+},
+  function(...) --[[No debug info available]] end,
+  "Kill Aura Range",
+  1,
+})
+local _var1063 =_var993:Section({
+  17,
+  "Tree Aura",
+  "Center",
+})
+local _var1065 =_var993:Divider()
+local _var1067 =_var993:Slider({
+  {
+  50,
+  100,
+  150,
+},
+  function(...) --[[No debug info available]] end,
+  "Chop Aura Range",
+  1,
+})
+local _var1070 =_var993:Dropdown({
+  "Tree Type",
+  {
+  "Small Tree",
+},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Small Tree",
+  "Big Tree",
+  "Dead Tree",
+},
+})
+local _var1073 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Tree Aura",
+  false,
+})
+local _var1076 =_var993:Divider()
+local _var1078 =_var993:Section({
+  20,
+  "Stun",
+  "Center",
+})
+local _var1080 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Stun Deer",
+  false,
+})
+local _var1083 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Stun Owl",
+  false,
+})
+local _var1086 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Stun Ram",
+  false,
+})
+local _var1089 =_var993:Divider()
+local _var1091 =_var993:Section({
+  17,
+  "Godmode",
+  "Center",
+})
+local _var1093 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Godmode",
+  false,
+})
+local _var1096 =_var993:Divider()
+local _var1098 =_var993:Section({
+  17,
+  "Auto",
+  "Center",
+})
+local _var1100 =_var993:Divider()
+local _var1102 =_var993:Dropdown({
+  "Select Auto",
+  {
+  "",
+},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Collect Coins",
+  "Plants Seed Box",
+  "Collect Ammo",
+  "Collect Diamond",
+  "Plants Tree",
+},
+})
+local _var1105 =game:GetService("ReplicatedStorage")
+local _var1107 =workspace:FindFirstChild("Items")
+local _var1109 =_var1105:FindFirstChild("RemoteEvents")
+local _var1112 =_var1105.RemoteEvents:FindFirstChild("RequestConsumeItem")
+local _var1114 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto",
+  false,
+})
+local _var1117 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Revive Team(bandage)",
+  false,
+})
+local _var1120 =_var993:Divider()
+local _var1122 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Grab Children",
+  false,
+})
+local _var1125 =_var993:Divider()
+local _var1129 =game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents")
+local _var1131 =workspace:WaitForChild("Items")
+_G["AutoFuelB"]={
+  "Log",
+  "Coal",
+  "Oil Barrel",
+  "Fuel Canister",
+  "Biofuel",
+}
+_G["AutoFuel"]=false
+local _var1133 =_var993:Dropdown({
+  "Choose Fuel",
+  {
+  "Log",
+  "Coal",
+  "Oil Barrel",
+  "Fuel Canister",
+  "Biofuel",
+},
+  true,
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Log",
+  "Coal",
+  "Oil Barrel",
+  "Fuel Canister",
+  "Biofuel",
+},
+})
+local _var1136 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Fuel",
+  false,
+})
+local _var1139 =_var993:Divider()
+_G["AutoFood"]=false
+local _var1141 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Cook",
+  false,
+})
+local _var1144 =_var993:Divider()
+_G["AutoScrapperH"]=false
+_G["AutoScrapper"]={
+  "Chair",
+  "Broken Fan",
+  "Sheet Metal",
+  "Bolt",
+  "Metal Chair",
+  "Broken Microwave",
+  "Old Car Engine",
+  "Old Radio",
+  "Washing Machine",
+  "Cultist Gem",
+  "Tyre",
+  "UFO Junk",
+  "UFO Component",
+}
+local _var1146 =_var993:Dropdown({
+  "Choose Scrapper",
+  {
+  "Chair",
+  "Broken Fan",
+  "Sheet Metal",
+  "Bolt",
+  "Metal Chair",
+  "Broken Microwave",
+  "Old Car Engine",
+  "Old Radio",
+  "Washing Machine",
+  "Cultist Gem",
+  "Tyre",
+  "UFO Junk",
+  "UFO Component",
+},
+  true,
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Log",
+  "Chair",
+  "Broken Fan",
+  "Sheet Metal",
+  "Bolt",
+  "Metal Chair",
+  "Broken Microwave",
+  "Old Car Engine",
+  "Old Radio",
+  "Washing Machine",
+  "Cultist Gem",
+  "Tyre",
+  "UFO Junk",
+  "UFO Component",
+},
+})
+local _var1149 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Scrapper",
+  false,
+})
+local _var1152 =_var993:Divider()
+local _var1154 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Sacrifice",
+  false,
+})
+local _var1157 =_var993:Divider()
+_G["TypeFoodToFill"]="Carrot"
+local _var1159 =_var993:Dropdown({
+  "Carrot",
+  function(...) --[[No debug info available]] end,
+  "Select Food to Fill Hunger",
+  {
+  "Carrot",
+  "Berry",
+  "Cooked Morsel",
+  "Cooked Steak",
+},
+})
+fenv["_HUNGER_THRESHOLD"] = 150
+local _var1162 =_var993:Slider({
+  {
+  1,
+  100,
+  200,
+},
+  function(...) --[[No debug info available]] end,
+  "Hunger Threshold",
+  1,
+})
+_G["AutoEat"]=false
+local _var1165 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Eat",
+  false,
+})
+local _var1168 =_var993:Divider()
+local _var1170 =_var993:Section({
+  17,
+  "Other",
+  "Center",
+})
+local _var1172 =_var993:Divider()
+local _var1174 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "100% Catch fish",
+  false,
+})
+local _var1177 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "100% Successful Taming Flute",
+  false,
+})
+local _var1180 =_var993:Button({
+  false,
+  "Instant Complete 3 Minigame Maze",
+  function(...) --[[No debug info available]] end,
+})
+local _var1183 =_var993:Divider()
+local _var1185 =_var993:Section({
+  17,
+  "Chest",
+  "Center",
+})
+_G["AutoOpenAllChests"]=false
+local _var1187 =task.spawn(function(...) --[[No debug info available]] end)
+local _var1190 =_var993:Dropdown({
+  "Choose Chest To Teleport",
+  true,
+  "None",
+  false,
+  function(...) --[[No debug info available]] end,
+  {},
+})
+local _var1193 =_var993:Button({
+  "Reset Chest List",
+  function(...) --[[No debug info available]] end,
+})
+local _var1196 =_var993:Button({
+  "Teleport To Chest",
+  function(...) --[[No debug info available]] end,
+})
+local _var1199 =_var993:Button({
+  "Open All Chests",
+  function(...) --[[No debug info available]] end,
+})
+local _var1202 =_var993:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Auto Open All Chests",
+  false,
+})
+local _var1205 =_var993:Divider()
+genv["TypeSelect"]={
+  {
+  "Broken Fan",
+  "Sheet Metal",
+  "Bolt",
+  "Metal Chair",
+  "Broken Microwave",
+  "Old Car Engine",
+  "Old Radio",
+  "WashingMachine",
+  "Cultist Gem",
+  "Tyre",
+  "Gem of the Forest Fragment",
+  "UFO Junk",
+  "UFO Component",
+},
+  {
+  "Coal",
+  "Oil Barrel",
+  "Fuel Canister",
+  "Biofuel",
+},
+  {
+  "Morsel",
+  "Cooked Morsel",
+  "Steak",
+  "Cooked Steak",
+  "Berry",
+  "Carrot",
+  "Cake",
+  "Chilli",
+  "Stew",
+  "Meat? Sandwich",
+  "Corn",
+  "Pumpkin",
+},
+  {
+  "Halloween Candle",
+  "Meteor Shard",
+  "Gold Shard",
+  "Raw Obsidiron Ore",
+  "Scalding Obsidiron Ingot",
+  "Obsidiron Ingot",
+  "Anvil Front",
+  "Anvil Base",
+  "Anvil Back",
+  "Sacrifice Totem",
+  "Bunny Foot",
+  "Wolf Pelt",
+  "Alpha Wolf Pelt",
+  "Bear Pelt",
+  "Wolf Corpse",
+  "Alpha Wolf Corpse",
+  "Bear Corpse",
+  "Polar Bear Pelt",
+  "Coin Stack",
+  "Arctic Wolf Pelt",
+  "Mammoth Tusk",
+  "Cultist King Antler",
+  "Scorpion Shell",
+},
+  {
+  "Log",
+  "Chair",
+  "Sapling",
+  "Diamond",
+  "Cultist",
+  "Crossbow Cultist",
+  "Alien",
+  "Hologram Emitter",
+},
+  {
+  "Old Flashlight",
+  "Strong Flashlight",
+  "Good Axe",
+  "Strong Axe",
+  "Chainsaw",
+  "Good Sack",
+  "Giant Sack",
+  "Kunai",
+  "Morningstar",
+  "Wildfire",
+  "Infernal Sack",
+  "Defense Blueprint",
+  "Bear Trap Blueprint",
+  "Lava Mine Blueprint",
+  "MedKit",
+  "Bandage",
+  "Spear",
+  "Poison Spear",
+  "Thorn Body",
+  "Obsidiron Body",
+  "Obsidiron Hammer",
+  "Obsidiron Boots",
+  "Cultist King Mace",
+},
+  {
+  "Revolver",
+  "Revolver Ammo",
+  "Rifle",
+  "Rifle Ammo",
+  "Tactical Shotgun",
+  "Raygun",
+  "Laser Canon",
+  "Crossbow",
+  "Infernal Crossbow",
+  "Leather Body",
+  "Iron Body",
+  "Alien Amour",
+},
+}
+local _var1207 =_var995:Divider()
+_G["ItemToPos"]="Player"
+local _var1209 =_var995:Dropdown({
+  "Player",
+  function(...) --[[No debug info available]] end,
+  "Drop Item To",
+  {
+  "Player",
+  "Campfire",
+  "Scrapper",
+},
+})
+_G["BringWithoutTPMode"]="Normal"
+local _var1212 =_var995:Dropdown({
+  "Normal",
+  function(...) --[[No debug info available]] end,
+  "Bring Mode",
+  {
+  "Normal",
+  "Fast",
+},
+})
+local _var1215 =_var995:Divider()
+local _1216 =genv["TypeSelect"]
+local _var1218 =_var995:Divider()
+local _var1220 =_var995:Section({
+  17,
+  "Fuel Section",
+  "Center",
+})
+local _var1222 =_var995:Divider()
+local _var1224 =_var995:Dropdown({
+  "Select Fuel",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Coal",
+  "Oil Barrel",
+  "Fuel Canister",
+  "Biofuel",
+},
+})
+local _var1227 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Fuel",
+  "Bring selected Fuel items",
+})
+local _1229 =genv["TypeSelect"]
+local _var1231 =_var995:Divider()
+local _var1233 =_var995:Section({
+  17,
+  "Resources Section",
+  "Center",
+})
+local _var1235 =_var995:Divider()
+local _var1237 =_var995:Dropdown({
+  "Select Resources",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Log",
+  "Chair",
+  "Sapling",
+  "Diamond",
+  "Cultist",
+  "Crossbow Cultist",
+  "Alien",
+  "Hologram Emitter",
+},
+})
+local _var1240 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Resources",
+  "Bring selected Resources items",
+})
+local _1242 =genv["TypeSelect"]
+local _var1244 =_var995:Divider()
+local _var1246 =_var995:Section({
+  17,
+  "Mental Section",
+  "Center",
+})
+local _var1248 =_var995:Divider()
+local _var1250 =_var995:Dropdown({
+  "Select Mental",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Broken Fan",
+  "Sheet Metal",
+  "Bolt",
+  "Metal Chair",
+  "Broken Microwave",
+  "Old Car Engine",
+  "Old Radio",
+  "WashingMachine",
+  "Cultist Gem",
+  "Tyre",
+  "Gem of the Forest Fragment",
+  "UFO Junk",
+  "UFO Component",
+},
+})
+local _var1253 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Mental",
+  "Bring selected Mental items",
+})
+local _1255 =genv["TypeSelect"]
+local _var1257 =_var995:Divider()
+local _var1259 =_var995:Section({
+  17,
+  "Food Section",
+  "Center",
+})
+local _var1261 =_var995:Divider()
+local _var1263 =_var995:Dropdown({
+  "Select Food",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Morsel",
+  "Cooked Morsel",
+  "Steak",
+  "Cooked Steak",
+  "Berry",
+  "Carrot",
+  "Cake",
+  "Chilli",
+  "Stew",
+  "Meat? Sandwich",
+  "Corn",
+  "Pumpkin",
+},
+})
+local _var1266 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Food",
+  "Bring selected Food items",
+})
+local _1268 =genv["TypeSelect"]
+local _var1270 =_var995:Divider()
+local _var1272 =_var995:Section({
+  17,
+  "Tool Section",
+  "Center",
+})
+local _var1274 =_var995:Divider()
+local _var1276 =_var995:Dropdown({
+  "Select Tool",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Old Flashlight",
+  "Strong Flashlight",
+  "Good Axe",
+  "Strong Axe",
+  "Chainsaw",
+  "Good Sack",
+  "Giant Sack",
+  "Kunai",
+  "Morningstar",
+  "Wildfire",
+  "Infernal Sack",
+  "Defense Blueprint",
+  "Bear Trap Blueprint",
+  "Lava Mine Blueprint",
+  "MedKit",
+  "Bandage",
+  "Spear",
+  "Poison Spear",
+  "Thorn Body",
+  "Obsidiron Body",
+  "Obsidiron Hammer",
+  "Obsidiron Boots",
+  "Cultist King Mace",
+},
+})
+local _var1279 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Tool",
+  "Bring selected Tool items",
+})
+local _1281 =genv["TypeSelect"]
+local _var1283 =_var995:Divider()
+local _var1285 =_var995:Section({
+  17,
+  "Gun Section",
+  "Center",
+})
+local _var1287 =_var995:Divider()
+local _var1289 =_var995:Dropdown({
+  "Select Gun",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Revolver",
+  "Revolver Ammo",
+  "Rifle",
+  "Rifle Ammo",
+  "Tactical Shotgun",
+  "Raygun",
+  "Laser Canon",
+  "Crossbow",
+  "Infernal Crossbow",
+  "Leather Body",
+  "Iron Body",
+  "Alien Amour",
+},
+})
+local _var1292 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Gun",
+  "Bring selected Gun items",
+})
+local _1294 =genv["TypeSelect"]
+local _var1296 =_var995:Divider()
+local _var1298 =_var995:Section({
+  17,
+  "Other Section",
+  "Center",
+})
+local _var1300 =_var995:Divider()
+local _var1302 =_var995:Dropdown({
+  "Select Other",
+  true,
+  {},
+  true,
+  function(...) --[[No debug info available]] end,
+  {
+  "Halloween Candle",
+  "Meteor Shard",
+  "Gold Shard",
+  "Raw Obsidiron Ore",
+  "Scalding Obsidiron Ingot",
+  "Obsidiron Ingot",
+  "Anvil Front",
+  "Anvil Base",
+  "Anvil Back",
+  "Sacrifice Totem",
+  "Bunny Foot",
+  "Wolf Pelt",
+  "Alpha Wolf Pelt",
+  "Bear Pelt",
+  "Wolf Corpse",
+  "Alpha Wolf Corpse",
+  "Bear Corpse",
+  "Polar Bear Pelt",
+  "Coin Stack",
+  "Arctic Wolf Pelt",
+  "Mammoth Tusk",
+  "Cultist King Antler",
+  "Scorpion Shell",
+},
+})
+local _var1305 =_var995:Button({
+  function(...) --[[No debug info available]] end,
+  "Bring Other",
+  "Bring selected Other items",
+})
+local _var1308 =_var997:Button({
+  false,
+  "Teleport Campfire",
+  function(...) --[[No debug info available]] end,
+})
+local _var1311 =_var997:Button({
+  false,
+  "Tp to Fish",
+  function(...) --[[No debug info available]] end,
+})
+local _var1314 =_var997:Button({
+  false,
+  "Tp to Skills Building",
+  function(...) --[[No debug info available]] end,
+})
+local _var1317 =_var997:Button({
+  false,
+  "Tp to Stronghold",
+  function(...) --[[No debug info available]] end,
+})
+local _var1320 =_var997:Button({
+  false,
+  "Tp to ToolWorkshop",
+  function(...) --[[No debug info available]] end,
+})
+local _var1323 =_var997:Button({
+  false,
+  "Teleport Sacrifice",
+  function(...) --[[No debug info available]] end,
+})
+local _var1326 =_var997:Button({
+  false,
+  "Tp to Ice Temple",
+  function(...) --[[No debug info available]] end,
+})
+local _var1329 =_var997:Button({
+  false,
+  "Tp to Snow Clothing Shop",
+  function(...) --[[No debug info available]] end,
+})
+local _var1332 =game:GetService("ReplicatedStorage")
+local _var1336 =game:GetService("Workspace")
+local _LocalPlayer1337 =game:GetService("Players").LocalPlayer
+genv["TreeShapes"]={
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+  function(...) --[[No debug info available]] end,
+}
+local _var1348 =_var1003:Section({
+  20,
+  "How to use, you must have 1 sapling to be able to inf",
+  "Center",
+})
+local _var1350 =_var1003:Divider()
+local _var1352 =_var1003:Dropdown({
+  "Circle",
+  function(...) --[[No debug info available]] end,
+  "Shape",
+  {
+  "Square",
+  "Circle",
+  "Spiral",
+  "Triangle",
+  "Diamond",
+  "Heart",
+  "Cross",
+  "Star",
+  "Pentagon",
+},
+})
+local _var1355 =_var1003:Slider({
+  {
+  0.2,
+  1,
+  10,
+},
+  function(...) --[[No debug info available]] end,
+  "Spacing",
+  0.1,
+})
+local _var1358 =_var1003:Slider({
+  {
+  5,
+  20,
+  200,
+},
+  function(...) --[[No debug info available]] end,
+  "Size",
+  1,
+})
+local _var1361 =_var1003:Input({
+  "chevron-up",
+  "Input",
+  "Height",
+  "4",
+  function(...) --[[No debug info available]] end,
+  "",
+})
+local _var1364 =_var1003:Dropdown({
+  "Instant",
+  function(...) --[[No debug info available]] end,
+  "Speed",
+  {
+  "Instant",
+  "Fast",
+  "Normal",
+  "Slow",
+},
+})
+local _var1367 =_var1003:Dropdown({
+  "Center",
+  function(...) --[[No debug info available]] end,
+  "Origin",
+  {
+  "Center",
+  "Player",
+},
+})
+local _var1370 =_var1003:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Showcase plant",
+  false,
+})
+local _var1373 =_var1003:Button({
+  "Build Plant (Inf Tree)",
+  function(...) --[[No debug info available]] end,
+})
+_G["Speed"]=27
+_G["SpeedT"]=false
+_G["JumpPower"]=50
+_G["JumpPowerT"]=false
+local _var1376 =_var999:Slider({
+  {
+  27,
+  27,
+  430,
+},
+  function(...) --[[No debug info available]] end,
+  "Set WalkSpeed",
+  1,
+})
+local _var1379 =_var999:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Toggle",
+  "Auto WalkSpeed",
+  false,
+})
+local _var1382 =_var999:Slider({
+  {
+  27,
+  50,
+  320,
+},
+  function(...) --[[No debug info available]] end,
+  "Set JumpPower",
+  1,
+})
+local _var1385 =_var999:Toggle({
+  function(...) --[[No debug info available]] end,
+  "Toggle",
+  "Auto JumpPower",
+  false,
+})
+local _LocalPlayer1388 =game.Players.LocalPlayer
+local er =error("/app/25ms_retard:561: <25ms: infinitelooperror>")
