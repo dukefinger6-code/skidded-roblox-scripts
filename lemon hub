@@ -1,0 +1,37 @@
+
+local v2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/LuaU-Free-Key-System-UI/main/source.lua"))
+v2 = v2()
+local v3 = v2:Init({
+	Debug = false,
+	Title = "ZerokHub | Key System",
+	Description = nil,
+	Link = "https://link-hub.net/1375213/4pxLxgwHMbee",
+	Discord = "https://discord.gg/28XycxS6Bj",
+	SaveKey = false,
+	Verify = function(a)
+	if a == "ZEROKHUBLEAKLENNON" then
+		_u0 = true
+		do return true end
+	end
+
+	return false
+end,
+	GuiParent = game.CoreGui,
+})
+
+if not false then
+	print("Key is valid, you can continue with your script.")
+	local v5 = loadstring(game:HttpGet("https://pastefy.app/RjkpAqUx/raw"))
+	v5()
+else
+	print("Key is invalid, please check the key or contact support.")
+end
+
+if not v3 then
+
+	if false then
+	else
+		do return end
+	end
+
+end
